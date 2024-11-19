@@ -27,6 +27,13 @@ namespace Calculadora
 
         }
 
+
+        // Funcion para el coseno
+        public double Cosine(double angleInRadians) {
+        return Math.Cos(angleInRadians);
+        }
+
+
         
 
         private void button3_Click(object sender, EventArgs e)
