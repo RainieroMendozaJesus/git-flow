@@ -11,11 +11,8 @@ using System.Windows.Forms;
 namespace Calculadora
 {    
 
-    // La operación de raíz cuadrada.
-    public double SquareRoot(double number) {
-    if (number < 0) throw new ArgumentException("Cannot calculate the square root of a negative number.");
-    return Math.Sqrt(number);
-    }
+    // Funcion para el seno
+    
 
 
     public partial class Form1 : Form
