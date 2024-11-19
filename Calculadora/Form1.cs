@@ -34,6 +34,8 @@ namespace Calculadora
 
         }
 
+        // Funcion para el exponente
+
         private void btnZero_Click(object sender, EventArgs e)
         {
             //Numero 0
