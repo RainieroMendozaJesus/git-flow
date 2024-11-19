@@ -9,7 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Calculadora
-{
+{   
+
+    // Funcion de la raiz cuadrada
+    public double SquareRoot(double number) {
+    if (number < 0) throw new ArgumentException("Cannot calculate the square root of a negative number.");
+    return Math.Sqrt(number);
+    }
+
+
+    
     public partial class Form1 : Form
     {
         private double valor1;
