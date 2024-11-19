@@ -9,7 +9,17 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Calculadora
-{
+{   
+
+
+
+
+    // Calcula la tangente de un ángulo (en radianes)
+    public double Tangent(double angleInRadians) {
+    return Math.Tan(angleInRadians);
+    }
+
+    
     public partial class Form1 : Form
     {
         private double valor1;
