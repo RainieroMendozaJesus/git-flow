@@ -9,7 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Calculadora
-{
+{    
+
+    // Funcion para el seno
+    
+
+
     public partial class Form1 : Form
     {
         private double valor1;
